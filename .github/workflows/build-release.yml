@@ -18,9 +18,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - arch: x86_64
-            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/x86/64
-            sdk_name: -sdk-x86-64_
+#          - arch: x86_64
+#            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/x86/64
+#            sdk_name: -sdk-x86-64_
           - arch: rockchip_armv8
             sdk_url_path: https://downloads.openwrt.org/snapshots/targets/rockchip/armv8
             sdk_name: -sdk-rockchip-armv8_
